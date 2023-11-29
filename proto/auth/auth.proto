@@ -31,6 +31,7 @@ message LoginResponse{
 
 message IsAdminRequest{
   string uuid = 1;
+  int32 app_id = 2;
 }
 
 message IsAdminResponse{
